@@ -1,0 +1,19 @@
+{
+    "name": "y",
+    "version": "1.0.1",
+    "description": "OOP with typescript implementing bubble sort",
+    "main": "index.ts",
+    "repository": "git@github.com:vativa/bubblesort-with-typescript.git",
+    "author": "Tichomir Rangelov <vativa4c@gmail.com>",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "start:run": "tsc -w",
+        "start:build": "nodemon build/index.js",
+        "start": "concurrently npm:start:*"
+    },
+    "devDependencies": {
+        "concurrently": "5.0.2",
+        "nodemon": "2.0.2"
+    }
+}
